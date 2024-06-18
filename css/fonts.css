@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Unbounded';
+    src: local('Unbounded Bold'), local('Unbounded-Bold'),
+        url('../fonts/Unbounded-Bold.woff2') format('woff2'),
+        url('../fonts/Unbounded-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: local('Unbounded Medium'), local('Unbounded-Medium'),
+        url('../fonts/Unbounded-Medium.woff2') format('woff2'),
+        url('../fonts/Unbounded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Pangram Sans';
+    src: local('PP Pangram Sans Medium'), local('PPPangramSans-Medium'),
+        url('../fonts/PPPangramSans-Medium.woff2') format('woff2'),
+        url('../fonts/PPPangramSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Pangram Sans';
+    src: local('PP Pangram Sans Semibold'), local('PPPangramSans-Semibold'),
+        url('../fonts/PPPangramSans-Semibold.woff2') format('woff2'),
+        url('../fonts/PPPangramSans-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Pangram Sans';
+    src: local('PP Pangram Sans Bold'), local('PPPangramSans-Bold'),
+        url('../fonts/PPPangramSans-Bold.woff2') format('woff2'),
+        url('../fonts/PPPangramSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
