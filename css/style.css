@@ -2210,11 +2210,13 @@ html {
     gap: 12px;
 }
 
-.footer__nav-policy {
+.footer__nav-policy,
+.footer__nav-creator {
     transition: var(--transition);
 }
 
-.footer__nav-policy:hover {
+.footer__nav-policy:hover,
+.footer__nav-creator:hover {
     color: var(--accent-text);
 }
 
@@ -2900,8 +2902,9 @@ html {
     }
 
     .btn-up {
-        left: 15px;
+        right: 15px;
         bottom: 15px;
+        left: auto;
     }
 
     /* ===================== */
@@ -3097,6 +3100,8 @@ html {
 
     .footer__nav-bottom {
         padding: 0 15px;
+
+        flex-direction: column;
     }
 
 }
@@ -3443,10 +3448,6 @@ html {
 
     .footer__nav-top {
         margin-bottom: 34px;
-    }
-
-    .footer__nav-bottom {
-        flex-direction: column;
     }
 }
 
