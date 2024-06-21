@@ -79,7 +79,7 @@ html {
     z-index: 1001;
     background: #f4f4f4;
 }
-
+p
 .preloader__row {
     height: 100%;
     width: 100%;
@@ -91,6 +91,7 @@ html {
 }
 
 .preloader__title {
+    display: block;
     z-index: 1003;
     position: absolute;
     top: 10%;
