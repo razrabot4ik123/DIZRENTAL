@@ -166,7 +166,7 @@
         function initSwiper() {
             const swiperHero = new Swiper('.hero__slider', {
                 slidesPerView: 'auto',
-                spaceBetween: 30,
+                spaceBetween: 18,
 
                 breakpoints: {
                     601: {
